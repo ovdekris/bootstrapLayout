@@ -3,7 +3,7 @@
     --color2: #52339a;
 }
 
-header,section,footer{
+header,section{
     padding: 100px 0;
 }
 header{
@@ -95,4 +95,15 @@ header,footer{
 .forwhom h5{
     padding: 50px;
     border: 3px solid var(--color1);
+}
+.container__icons{
+    display: flex;
+    justify-content: center;
+}
+.container__icons a{
+  width: 50px;
+    margin-right: 5px;
+}
+footer{
+    padding: 50px 0;
 }
